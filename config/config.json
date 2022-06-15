@@ -1,0 +1,28 @@
+{
+    "APP_CONFIG":{
+        "MIGRATION_PORT":7657,
+        "BATCH_SIZE":10
+    },
+    
+    
+    "COUCH": {
+      "host": "150.0.1.78",
+      "protocol": "http",
+      "port": 5984,
+      "auth": {
+        "user": "xoxocouch",
+        "password": "couch@xoxoday123#"
+        }
+    },
+
+    "OPENCART_DB": {
+        "connectionLimit": 10,
+        "host": "34.210.163.161",
+        "user": "entremote",
+        "password": "Rem@te123",
+        "database": "opencart_new_merge",
+        "debug"    :  false,
+        "queueLimit": 30,
+        "acquireTimeout": 1000000
+    }
+}
